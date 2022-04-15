@@ -1,0 +1,205 @@
+{
+    "License": "contact admin Rumble",
+    "Account": {
+        "Username": "Yujul524",
+        "Password": "aldiansyah12345678910"
+    },
+    "Play Game": {
+        "Mode": "dice",
+        "Currency": "trx",
+        "Show Price": "ON",
+        "Delay Bet(ms)": "0",
+        "Classic Display": "False"
+    },
+    "Target": {
+        "Profit (amt)": "10",
+        "Profit (%)": "0",
+        "Balance": "0",
+        "Lose": "0"
+    },
+    "Stopwin": {
+        "On Profit": "True",
+        "If Maxbet": "0",
+        "If Balance Drop (%)": "0",
+        "After LS": "0"
+    },
+    "Repeat Play": {
+        "Status": "OFF",
+        "Delay (sec)": "3"
+    },
+    "Auto WD": {
+        "Status": "OFF",
+        "Trigger Balance": "12000",
+        "Amount WD": "10000",
+        "Tip Username": "rumble9",
+        "Wallet": {
+            "Is Faucetpay": "False",
+            "Address": "TNGrubCk4uzHvJGsGxiuU6AGpH7zrWCrnz"
+        }
+    },
+    "Auto Remove History": {
+        "Status": "ON",
+        "Size Limit (MB)": "5"
+    },
+    "Reset Seed": {
+        "Status": "ON",
+        "At Start Game": "False",
+        "After Bet": "1200",
+        "After Play (min)": "60"
+    },
+    "Bet Roll": {
+        "Random": "False",
+        "Bet High": "False",
+        "Switch Hi / Low": {
+            "Status": "ON",
+            "If Win": "1",
+            "If Lose": "1"
+        }
+    },
+    "Bet Amount": {
+        "Base Bet": "0.000001",
+        "Preroll Bet": "0.000001",
+        "Shoot Bet": "50",
+        "Auto Shoot": {
+            "Status": "OFF",
+            "After Win Streak": "0",
+            "After Lose Streak": "6"
+        },
+        "Constant Divider": {
+            "Status": "OFF",
+            "Re-Calculate on Profit": "False",
+            "Divider": "5000000"
+        }
+    },
+    "Betset": {
+        "Rumble-S1": {
+            "Status": "OFF",
+            "Chance on Win": {
+                "Min": "90",
+                "Max": "93"
+            },
+            "Chance on Lose": {
+                "Min": "9",
+                "Max": "23"
+            },
+            "Reset to base if": {
+                "Win": "0",
+                "Lose": "0",
+                "Max Bet": "0",
+                "Profit": "0.00000001"
+            }
+        },
+        "JackHunter": {
+            "Status": "ON",
+            "Chance to Win": {
+                "Min": "10",
+                "Max": "15"
+            },
+            "Trigger Change Repeat": "25",
+            "Trigger Change on LS 1": "35",
+            "Trigger Change on LS 2": "45",
+            "Trigger Change on LS 3": "55"
+        },
+        "RumbleNote": {
+            "Status": "OFF",
+            "Chance to Win": {
+                "Min": "4",
+                "Max": "5"
+            },
+            "Increase Bet on Lose": "1.07",
+            "Reset Chance after Lose": "0"
+        },
+        "Martingale": {
+            "Status": "OFF",
+            "Chance to Win": {
+                "Min": "47.5",
+                "Max": "47.5"
+            },
+            "Increase bet after": {
+                "Win": "1",
+                "Lose": "2"
+            },
+            "Reset to base if": {
+                "Win": "0",
+                "Lose": "0",
+                "Max Bet": "0",
+                "Profit": "0.00000001"
+            }
+        },
+	    "Role Rumble": { 
+            "Status": "OFF", 
+            "Lemper Mode": "false", 
+            "Continuous Bet": "false", 
+            "Reset Jump": { 
+                "If Profit": "0", 
+                "If Win": "1" 
+            }, 
+            "Mode": [ 
+                { 
+                    "Name": "Rumble 1", 
+                    "Status": "ON", 
+                    "Base": "0.000001", 
+                    "Balance Divider": { 
+                        "Status": "OFF", 
+                        "Divider": "1000000", 
+                        "Recalculate on Profit": "False" 
+                    }, 
+                    "Increase bet after": { 
+                        "Win": "1", 
+                        "Lose": "1.25" 
+                    }, 
+                    "Reset to base if": { 
+                        "Win": "0", 
+                        "Lose": "0", 
+                        "Max Bet": "0", 
+                        "Profit": "0.0000001" 
+                    }, 
+                    "Chance to Win": { 
+                        "Min": "19", 
+                        "Max": "19." 
+                    }, 
+                    "Jump to Next Mode": { 
+                        "After Bet": "0", 
+                        "Win Streak": "0", 
+                        "Lose Streak": "0", 
+                        "After Profit": "0", 
+                        "Next Win After Bet": "0", 
+                        "After Lose Amount": "0.0001" 
+                    } 
+                }, 
+                { 
+                    "Name": "Rumble 2", 
+                    "Status": "ON", 
+                    "Base": "0.00001", 
+                    "Balance Divider": { 
+                        "Status": "OFF", 
+                        "Divider": "1000000", 
+                        "Recalculate on Profit": "True" 
+                    }, 
+                    "Increase bet after": { 
+                        "Win": "1", 
+                        "Lose": "1.12" 
+                    }, 
+                    "Reset to base if": { 
+                        "Win": "0", 
+                        "Lose": "0", 
+                        "Max Bet": "0", 
+                        "Profit": "0.00000001" 
+                    }, 
+                    "Chance to Win": { 
+                        "Min": "9", 
+                        "Max": "9" 
+                    }, 
+                    "Jump to Next Mode": { 
+                        "After Bet": "0", 
+                        "Win Streak": "0", 
+                        "Lose Streak": "0", 
+                        "After Profit": "0", 
+                        "Next Win After Bet": "0", 
+                        "After Lose Amount": "0.01" 
+                    }
+                }
+            ]
+        }
+    }
+}
